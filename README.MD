@@ -75,28 +75,3 @@ create table presenteado (
     foreign key (idAmigo) references amigo(idAmigo),
     foreign key (idPresente) references presente(idPresente)
 );
-
-insert into tipoAmigo (nome, precoMin, precoMax)
-values ("Familia", 600, 1000);
-
-insert into tipoPresente (nome)
-values ("Roupa");
-
-insert into amigo (nome, endereco,telefone,email,tipoAmigo)
-values (
-    "Nicolas",
-    "jose lourenço 2270",
-    "85996941119",
-    "nicolasqueirogapaix@gmail.com",
-    1
-);
-
-insert into presente(nome, preco, tipoPresente)
-values (
-    "blusa",
-    800,
-    1
-);
-
-insert into presenteado (idAmigo,idPresente,data)
-values (1,1,"2025-09-20");
