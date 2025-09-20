@@ -1,6 +1,6 @@
 # 📘 Trabalho de Banco de Dados – Sistema de Presentes  
 
-Este projeto foi desenvolvido como **trabalho da faculdade** para a disciplina de Banco de Dados.  
+Este projeto foi desenvolvido como **trabalho da faculdade** para a disciplina de Ambiente de dados.  
 O objetivo é criar um sistema capaz de registrar presentes dados a amigos/parente, controlando **quem recebeu, qual presente foi dado, em que data e o valor**.  
 
 ---
